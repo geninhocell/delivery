@@ -11,6 +11,8 @@ export class AuthenticateDeliverymanController {
             password
         })
 
-        return response.json(result)
+        return response.json({
+            token: result
+        })
     }
 }

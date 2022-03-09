@@ -27,7 +27,7 @@ export class AuthenticateClientUseCase {
 
         const token = sign(
             { username },
-            "98a0d7a30bd854dec24f7a09dee6431fb7d70e33",
+            "98a0d7a30bd854dec24f7a09d226431fb7d70e33",
             {
                 subject: client.id,
                 expiresIn: "1d"
